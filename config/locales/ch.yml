@@ -1,0 +1,43 @@
+ch:
+  
+  thanks:         "谢谢惠顾"
+  
+  layouts:
+    application:
+      title:      "网上书城"
+      home:       "主页"
+      questions:  "问题"
+      news:       "新闻"
+      contact:    "联系我们"
+      
+  store:
+    index:
+      title_html:   "商品目录"
+      add_html:     "添加到购物车"
+  
+  carts:
+    cart:
+      title:      "你的购物车"
+      empty:      "清空"
+      checkout:   "结算"
+      ifsure:     "确定?"
+      
+  number:
+    currency:
+      format:
+        unit:      "￥"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+        
+  orders:
+    new:
+      legend:         "输入您的信息"
+    form:
+      name:           "姓名"
+      address_html:   "地址"
+      email:          "邮箱"
+      pay_type:       "支付方式"
+      pay_prompt_html: "选择支付方式"
+      submit:          "提交订单"
