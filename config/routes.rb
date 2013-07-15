@@ -1,5 +1,6 @@
 Depot::Application.routes.draw do
   get 'admin' => 'admin#index'
+  get 'store/index'
   
   controller :sessions do
     get 'login' => :new
